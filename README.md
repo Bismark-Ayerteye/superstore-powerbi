@@ -22,7 +22,7 @@ Power BI Desktop (Power Query, data modeling, DAX)
 
 **Quality checks:** I profiled the entire dataset, not just the first 1,000 rows. Every column was 100% valid, with 0% errors and 0% empty cells. Row ID runs from 1 to 9,994 with one ID per row, so there were no duplicate rows. Repeated Order IDs and Customer IDs are expected, because one order can contain several products and customers order more than once.
 
-**Data loss check:** at first I removed the rows with date errors, which left only 2,739 of 9,994 rows. I noticed because the Row ID maximum did not match the row count. I undid that step and fixed the locale instead, which kept every row. Lesson: errors in a column usually mean a wrong setting, so fix the cause instead of deleting the rows.
+**Data loss check:** at first I removed the rows with date errors, which left only 2,739 of 9,994 rows. I noticed that because the Row ID maximum did not match the row count. I undid that step and fixed the locale instead, which kept every row. Lesson: errors in a column usually mean a wrong setting, so I fix the cause instead of deleting the rows.
 
 ## Data Model and DAX Measures
 
