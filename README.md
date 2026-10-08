@@ -96,4 +96,4 @@ Profit falls as discounts rise. Orders discounted by more than 20% lose money al
 - I did not test the results statistically.
 
 ## Contact
-Bismark Amatey Ayerteye | [Add your LinkedIn link]
+Bismark Amatey Ayerteye | [ayerteyebismarkamatey@gmail.com]
